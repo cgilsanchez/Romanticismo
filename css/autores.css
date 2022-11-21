@@ -1,0 +1,60 @@
+@font-face {
+    font-family: titulos;
+    src: url('./../fonts/GrebackGrotesquePERSONAL-Italic.otf');
+}
+
+@font-face {
+    font-family:texto;
+    src: url('./../fonts/The\ Barimhare.ttf');
+}
+
+
+
+    body { font-family:texto;
+    /*padding:3%;*/
+    background-color: rgb(123, 203, 181);
+    background-image: url(../images/patron\ piraata.jpg);
+}
+
+#wrapper{
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    padding: 2%;
+    }
+
+h1,h2,h3{font-family:titulos ;
+    font-size:2em;
+}
+
+h1{text-decoration: underline;}
+
+
+p{text-align: justify;
+    text-indent: 2em;
+}
+
+#espronceda{
+    float: left;
+    margin: 10px;
+    width: 250px;
+}
+
+    /*Con float consigo que la imagen salga con el texto alrededor*/
+    .limpiafloat {clear:both ;}
+
+    @media only screen and (width<=900px) {
+        #espronceda {width: 50%;}
+
+    }
+
+
+
+    @media only screen and (width<=500px) {
+        
+        #wrapper {width:100%;}
+        
+        #espronceda {width: 100%;
+                    padding:0 0 15px 0;}
+            
+    }

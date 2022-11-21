@@ -1,0 +1,15 @@
+@font-face {
+    font-family: escritura;
+    src: url('../Romanticismo/fonts/Arcon-Regular.otf');
+}
+
+body {font-family: escritura;
+    font: size 1.2rem; 
+    background-image: url(../Romanticismo/images/patron\ piraata.jpg);
+    background-repeat: repeat-y/*solo una vez*/ /*repeat-x = se repite horizontal**/
+    background-color: cornsilk;
+}
+
+#wrapper{margin left:30% ;
+        color: 
+}
